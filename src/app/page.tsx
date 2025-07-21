@@ -1,5 +1,3 @@
-'use client';
-
 import Image from "next/image";
 
 export default function Home() {
@@ -14,29 +12,11 @@ export default function Home() {
                     height={38}
                     priority
                 />
-                <h1 className="text-3xl">Voidrealms Will Return</h1>
+                <h1 className="text-3xl">🚀 Voidrealms Will Return</h1>
                 <div>
-                    <p>I recently acquired the domain and approval to continue development of Voidrealms.</p>
+                    <p>This page is still pretty empty for now, but be sure to mark <b>August 1st</b> on your calendar.</p>
                     <br/>
-                    <p className="font-bold">Please join our community server for more information.</p>
-                </div>
-
-                <div className="flex gap-4 items-center flex-col sm:flex-row">
-                    <a
-                        className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-                        href="https://discord.gg/tQ8S7Mn6xb"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Image
-                            className="dark:invert"
-                            src="/discord.svg"
-                            alt="Discord logo"
-                            width={20}
-                            height={20}
-                        />
-                        Community Server
-                    </a>
+                    <p className="font-bold">We will not disappoint. 😉</p>
                 </div>
             </main>
         </div>
